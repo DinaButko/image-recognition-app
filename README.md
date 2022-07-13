@@ -42,7 +42,8 @@ Google notebook with the model: https://colab.research.google.com/drive/1-2-cCbD
 
 ## Team
 
-![1590996370390](https://user-images.githubusercontent.com/97703238/178818826-d3a2fbc9-894c-4571-9295-5b8b01b00bc6.jpeg)
+# Dina Butko ID301215947
+<img src="https://user-images.githubusercontent.com/97703238/178818826-d3a2fbc9-894c-4571-9295-5b8b01b00bc6.jpeg" align="right" width="150")
 
 
 
