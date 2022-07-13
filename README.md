@@ -1,11 +1,11 @@
 
 ## 🚀 Image-Recognition_Application:
-##Note: Data set is not included in the folder as it was downloaded using kaggle
-## Demo 
+## Note: Data Set is not included in the folder as it was downloaded using kaggle
+## 🌍 Demo 
 
 Link: https://comp-377-image-recogn-project.herokuapp.com/
 
-## Overview
+## 📚 Overview
 
 This is a simple image recognition application. Th trained model (model.tflite) takes an image as an input and predict the class of image from 0 to 7.
 Dataset is from https://www.kaggle.com/datasets/puneet6060/intel-image-classification
