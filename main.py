@@ -7,13 +7,17 @@ import cv2
 from PIL import Image
 import tflite_runtime.interpreter as tflite
 
-
+# Added a model
 model = tflite.Interpreter("static/model.tflite")
 model.allocate_tensors()
 
+# Create a variable to keep input details (image)
 input_details = model.get_input_details()
+
+# Create a variable to to show predicted value
 output_details = model.get_output_details()
 
+# Create a mapping for the class
 class_mapping = {0: 'Building',
                  1: 'Forest',
                  2: 'Glacier',
@@ -22,6 +26,7 @@ class_mapping = {0: 'Building',
                  5: 'Street'}
 
 
+# Create a function to predict a value
 def model_predict(images_arr):
     predictions = [0] * len(images_arr)
 
@@ -38,15 +43,22 @@ def model_predict(images_arr):
     return argmaxs
 
 
+# Using FastApi
 app = FastAPI()
+
 app.mount("/static", StaticFiles(directory="static"), name="static")
+
+# Change image input size, because in model size is 150*150
 
 
 def resize(image):
     return cv2.resize(image, (150, 150))
 
+# Post images from the user
+
 
 @app.post("/uploadfiles/", response_class=HTMLResponse)
+# Create async function which helps to upload several images at the same time
 async def create_upload_files(files: List[UploadFile] = File(...)):
     images = []
     for file in files:
@@ -65,6 +77,8 @@ async def create_upload_files(files: List[UploadFile] = File(...)):
         pillow_image = Image.fromarray(image)
         pillow_image.save('static/' + name)
 
+
+# Create a path  for images
     image_paths = ['static/' + name for name in names]
 
     images_arr = np.array(images_rgb, dtype=np.float32)
@@ -75,6 +89,7 @@ async def create_upload_files(files: List[UploadFile] = File(...)):
 
     column_labels = ["Image", "Prediction"]
 
+# Create html table
     table_html = get_html_table(image_paths, class_predictions, column_labels)
 
     content = head_html + """
@@ -127,6 +142,8 @@ head_html = """
 <body style="background-color:powderblue;">
 <center>
 """
+
+# Create a function to make a table
 
 
 def get_html_table(image_paths, names, column_labels):
