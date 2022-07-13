@@ -1,6 +1,6 @@
 
 ## 🚀 Image Recognition Application
-## Note: Data Set is not included in the folder as it was downloaded using kaggle
+# Note: Data Set is not included in the folder as it was downloaded using kaggle
 ## 🌍 Demo:
 
 Link: https://comp-377-image-recogn-project.herokuapp.com/
