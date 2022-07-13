@@ -40,7 +40,6 @@ Google notebook with the model: https://colab.research.google.com/drive/1-2-cCbD
 <img src= "https://user-images.githubusercontent.com/97703238/178814458-3fdc22af-766f-4e8a-a070-20983f44aad8.png" align="right" width="150" height="100">
 <img src= "https://user-images.githubusercontent.com/97703238/178814585-c8acb4df-bc30-40f8-ab1a-a90e9bf4e937.png" align="left" width="150" height="100">
 
-## Team
 
 
 
