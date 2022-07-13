@@ -35,10 +35,10 @@ Google notebook with the model: https://colab.research.google.com/drive/1-2-cCbD
 
 ## Technologies Used:
 <img src="https://user-images.githubusercontent.com/97703238/178814355-928d855b-2bb8-46e7-a155-05fc63dd0a44.svg" align="right" width="150" height="100">
-<img src="https://user-images.githubusercontent.com/97703238/178814383-62bafcf8-6e43-4123-bc39-1b6037ba0cf3.png" align="left" width="150" height="100">
-<img src="https://user-images.githubusercontent.com/97703238/178814404-ce49ca3d-020b-4ac1-bed8-e809a97bdec0.png" align="center" width="150" height="100">
+<img src="https://user-images.githubusercontent.com/97703238/178814383-62bafcf8-6e43-4123-bc39-1b6037ba0cf3.png" align="right" width="150" height="100">
+<img src="https://user-images.githubusercontent.com/97703238/178814404-ce49ca3d-020b-4ac1-bed8-e809a97bdec0.png" align="right" width="150" height="100">
 <img src= "https://user-images.githubusercontent.com/97703238/178814458-3fdc22af-766f-4e8a-a070-20983f44aad8.png" align="right" width="150" height="100">
-<img src= "https://user-images.githubusercontent.com/97703238/178814585-c8acb4df-bc30-40f8-ab1a-a90e9bf4e937.png" align="left" width="150" height="100">
+<img src= "https://user-images.githubusercontent.com/97703238/178814585-c8acb4df-bc30-40f8-ab1a-a90e9bf4e937.png" align="right" width="150" height="100">
 
 
 
