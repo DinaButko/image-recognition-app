@@ -27,6 +27,11 @@ Google notebook with the model: https://colab.research.google.com/drive/1-2-cCbD
 3. To tun the server using FAST-API user should add command on Mac: uvicorn main:app
 4. After that user can open server and the application
 5. But it's not neccesssary, as this app was deployed on Heroku. For Heroku we added dependencies (requirements.txt, Procfile, and runtime.txt)
+6. Click "Choose File" and choose file for the future prediction
+7. Select an image (.jpg) from the files
+8. Clik "Upload" and see the Prediction Result
+9. User is able to upload several images at the same time to predict several images
+10. Image prediction will be displayed
 
 ## Technologies Used
 <img src="https://user-images.githubusercontent.com/97703238/178814355-928d855b-2bb8-46e7-a155-05fc63dd0a44.svg" width="150" height="100">
