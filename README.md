@@ -1,5 +1,5 @@
 
-## 🚀 Image-Recognition_Application:
+## 🚀 Image Recognition Application:
 ## Note: Data Set is not included in the folder as it was downloaded using kaggle
 ## 🌍 Demo 
 
