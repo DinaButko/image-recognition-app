@@ -7,7 +7,7 @@ Link: https://comp-377-image-recogn-project.herokuapp.com/
 
 ## 📚 Overview:
 
-This is a simple image recognition application. Th trained model (model.tflite) takes an image as an input and predict the class of image from 0 to 5.
+This is a simple image recognition application. The trained model (model.tflite) takes an image as an input and predict the class of image from 0 to 5.
 Dataset is from https://www.kaggle.com/datasets/puneet6060/intel-image-classification
 
 ## 💡 Instructions how to build a model:
