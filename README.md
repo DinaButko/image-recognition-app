@@ -22,7 +22,7 @@ Dataset is from https://www.kaggle.com/datasets/puneet6060/intel-image-classific
 Google notebook with the model: https://colab.research.google.com/drive/1-2-cCbDPyjff2g2O22b6317TFnwvApK4?usp=sharing
 
 ## 📕 How to run the application:
-1. Run the virtual environment. Fo Mac user's iw will be:  source venv/bin/activate
+1. Run the virtual environment. For Mac user's iw will be:  source venv/bin/activate
 2. In the virtual requirement user mught instal dependencies uding command: pip3 install -r windows_requerements.txt
 3. To tun the server using FAST-API user should add command on Mac: uvicorn main:app
 4. After that user can open server and the application
