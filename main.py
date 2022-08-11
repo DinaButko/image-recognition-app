@@ -147,7 +147,7 @@ head_html = """
 
 
 def get_html_table(image_paths, names, column_labels):
-    s = '<table align="center">'
+    s = '<table align="center"> <marquee direction = "up">'
     if column_labels:
         s += '<tr><th><h4 style="font-family:Arial">' + \
             column_labels[0] + '</h4></th><th><h4 style="font-family:Arial">' + \
@@ -156,6 +156,6 @@ def get_html_table(image_paths, names, column_labels):
     for name, image_path in zip(names, image_paths):
         s += '<tr><td><img height="80" src="/' + image_path + '" ></td>'
         s += '<td style="text-align:center">' + name + '</td></tr>'
-    s += '</table>'
+    s += '</marquee></table>'
 
     return s
