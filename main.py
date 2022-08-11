@@ -155,7 +155,7 @@ def get_html_table(image_paths, names, column_labels):
 
     for name, image_path in zip(names, image_paths):
         s += '<tr><td><img height="80" src="/' + image_path + '" ></td>'
-        s += '<td style="text-align:center">' + name + '</td></tr>'
+        s += '<td style="text-align:center; font-weight: bold;">' + name + '</td></tr>'
     s += '</table>'
 
     return s
