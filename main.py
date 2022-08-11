@@ -127,13 +127,7 @@ async def main():
     <br/>
     <form  action="/uploadfiles/" enctype="multipart/form-data" method="post">
     <input name="files" type="file" multiple>
-    <input type="submit"; background-color: #04AA6D;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;>
+    <input type="submit">
     </form>
     </body>
     """
