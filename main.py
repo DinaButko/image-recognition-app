@@ -139,7 +139,7 @@ head_html = """
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
-<body style="background-color:green;">
+<body style="background-image:AI_Pic.jpg;">
 <center>
 """
 
