@@ -139,7 +139,7 @@ head_html = """
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
-<body style="background-image: url(https://freerangestock.com/sample/145397/artificial-intelligence-background--abstract-ai-background-with.jpg);">
+<body style="background-image: url(https://freerangestock.com/sample/145397/artificial-intelligence-background--abstract-ai-background-with.jpg);  background-repeat:no-repeat; background-size:cover;">
 <center>
 """
 
